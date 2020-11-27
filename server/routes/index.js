@@ -33,7 +33,7 @@ module.exports = (app) => {
     });
   });
 
-  app.get('/api/whoWeAres', (req, res) => {
+  app.get('/api/whoWeAre', (req, res) => {
     WhoWeAre.model.find((err, data) => {
       if (err) {
         res.status(500).send('DB Error');
