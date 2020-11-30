@@ -1,9 +1,14 @@
 import React from 'react'
 import quemSomos from './images/quemSomos.jpg'
+import diamond from './icons/Diamond02.svg'
+import diamondTop from './icons/Diamond01.svg'
 
 export default props =>
+
 	<div className="wwa">
+		
 		<div className="container">
+		
 			<div className="photo">
 				{/*<img src={quemSomos}/>*/}
 				<div className="img"></div>

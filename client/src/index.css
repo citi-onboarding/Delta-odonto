@@ -6,6 +6,16 @@ body{
 }
 
 .wwa{
+	/*
+	background: url("./components/icons/Diamond01.svg");
+	background-repeat: no-repeat;
+	background-position-y: -205px;
+	background-position-x: right;
+	background-size: 200px;
+	*/
+	background: url("./components/icons/Diamond01.svg") top -205px right, url("./components/icons/Diamond02.svg") bottom -86px left;
+	background-repeat: no-repeat;
+	background-size: 200px;
 	background-color: #E5E5E5;
 	width: 100%;
 	height: 660px;
@@ -13,6 +23,7 @@ body{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .container{
@@ -160,6 +171,7 @@ body{
 		flex-direction: column;
 		width: 100%;
 		font-size: small;
+		background: none;
 	}
 	.img{
 		display: none;
