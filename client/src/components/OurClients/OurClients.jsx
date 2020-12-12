@@ -46,7 +46,7 @@ function OurClients(){
     <div className='OurClients'>
       <div className='section'>
         <h2 id='title'>Nossos clientes</h2>
-        <Slider {...settings}>
+        <Slider className='carouselSlide' {...settings}>
           {ourClients?.map(({_id, image, testimony, name}, i) =>{
             return(
               <>
